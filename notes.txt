@@ -1,0 +1,25 @@
+What is cascade in CSS
+CSS cascade algorith job is to select the CSS declaration in order to determine the correct values for CSS properties
+
+
+h2 {
+    background-clor: yellow;
+}
+
+h2{
+    background-color:blue // it will select the bg color blue 
+}
+
+2. Selector Specificity
+it is an algorithm that calculates the weight that is applied to a given CSS declaration
+
+id > class > element
+
+Inline element : 1000
+ID  : 100
+Class : 10
+Element : 1
+
+Note : Inline Style have more specificity 
+Note: As the specificity of the inline style has more 
+        so we cannot change its specificity 

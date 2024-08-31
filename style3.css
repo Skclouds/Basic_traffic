@@ -1,0 +1,27 @@
+div{
+    height: 250px;
+    width: 550px;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: red; */
+/* Border Shorthand*/
+    /* border: 5px dotted red; */
+        /*   width style color*/
+        border: 6px solid black;
+        border-radius: 11.5px;
+        margin: 10px 20px 30px;
+}
+
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: purple;
+    width: 130px;
+    height: 100px;
+}
+
+button{
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 30px;
+}

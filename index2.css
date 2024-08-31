@@ -1,0 +1,63 @@
+ *{
+    font-family: "courier New";
+ }
+ /* //Universal Selector it implies the change the whole  */
+ /* document  */
+
+ h3{
+    color: blueviolet;
+ }
+
+ /* #login{
+    background-color: red;
+ } */
+
+ .upvote{
+    background-color: green;
+ }
+
+ /* #myId p {
+   color: green;
+ } */
+
+
+ div[id="myId"] p{
+   color: green;
+ }
+
+
+ /*Peusdo class*/
+ button:hover{
+   background-color: black;
+   color: white;
+ }
+
+ button:active{
+   background-color: pink;
+   text-decoration: wavy;
+ }
+
+ p:active{
+   font-weight: bolder;
+ }
+
+ input[type="radio"]:checked + label{
+   color: red;
+   font-weight: bold;
+ }
+
+
+
+ /*Psuedo Element*/
+ h1::first-letter{
+  color: rgb(255, 1, 128);
+ }
+
+ p::first-line{
+  color: purple;
+  font-weight: bold ;
+ }
+
+ p::selection{
+  background-color: yellow;
+ }

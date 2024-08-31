@@ -1,0 +1,17 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+   color: #1b74e4
+}
+
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+/* // this is for the id using # */
+.userbtn{
+    background-color: aqua;
+}
+/* // this for the selection of the class */
